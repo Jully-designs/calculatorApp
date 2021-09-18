@@ -60,7 +60,7 @@ for(var x = 0; x < keys; x++){
     if(displayOut.innerHTML !== ""){
       displayOut.innerHTML = "";
     }
-  })
+  });
 }
 
 for(var i = 0; i < keys; i++ ){
@@ -70,6 +70,16 @@ for(var i = 0; i < keys; i++ ){
     if(displayOut.innerHTML !== ""){
       display.innerHTML = displayOut.innerHTML + display.innerHTML;
       displayOut.innerHTML = "";
+    }
+  });
+};
+
+for(var i = 0; i < keys; i++ ){
+  var keys = document.querySelectorAll(".operator1").length;
+  var select = document.querySelectorAll(".operator1")[i];
+  select.addEventListener("click", function(){
+    if(display.innerHTML === ""){
+      display.innerHTML = ""
     }
   });
 };
