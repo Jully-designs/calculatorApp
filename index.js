@@ -73,13 +73,3 @@ for(var i = 0; i < keys; i++ ){
     }
   });
 };
-
-for(var i = 0; i < keys; i++ ){
-  var keys = document.querySelectorAll(".operator1").length;
-  var select = document.querySelectorAll(".operator1")[i];
-  select.addEventListener("click", function(){
-    if(display.innerHTML === ""){
-      display.innerHTML = ""
-    }
-  });
-};
