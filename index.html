@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>A Simple Calculator</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="calculator">
+            <div id="result">
+              <div id="input">
+                <p id="input-value"></p>
+              </div>
+              <div id="output">
+                <p id="output-value"></p>
+              </div>
+            </div>
+            <div id="keys">
+              <button type="button" value="clear" class="operator" id="clear">C</button>
+              <button type="button" value="" class="operator" id="backspace">DEL</button>
+              <button type="button" value="" class="number" id=".">.</button>
+              <button type="button" value="/" class="operator operator1" id="/">&#247;</button>
+              <button type="button" value="" class="number" id="7">7</button>
+              <button type="button" value="" class="number" id="8">8</button>
+              <button type="button" value="" class="number" id="9">9</button>
+              <button type="button" value="*" class="operator operator1" id="*">&times;</button>
+              <button type="button" value="" class="number" id="4">4</button>
+              <button type="button" value="" class="number" id="5">5</button>
+              <button type="button" value="" class="number" id="6">6</button>
+              <button type="button" value="-" class="operator operator1" id="-">-</button>
+              <button type="button" value="" class="number" id="1">1</button>
+              <button type="button" value="" class="number" id="2">2</button>
+              <button type="button" value="" class="number" id="3">3</button>
+              <button type="button" value="+" class="operator operator1" id="+">+</button>
+              <button type="button" value="" class="empty" id="empty"></button>
+              <button type="button" value="" class="number" id="0">0</button>
+              <button type="button" value="" class="empty" id="empty"></button>
+              <button type="button" value="" class="operator" id="equals">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
