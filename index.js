@@ -32,8 +32,6 @@ function calculate(){
     var result = eval(display.innerHTML);
     displayOut.innerHTML = result;
     clear();
-  }else{
-    display.innerHTML == ""
   }
 };
 
